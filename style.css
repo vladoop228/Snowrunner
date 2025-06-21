@@ -1,0 +1,75 @@
+h1{
+    color: brown;
+}
+body{
+    background: linear-gradient(#55B3F6,#B7D690,#52B100);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    height:100vh ;
+}
+.lol{
+    font-family: "Jersey 25";
+    color: #ffffff;
+    font-size: 15vh;
+    -webkit-text-stroke:1px rgb(0, 145, 234) ;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: -0%;
+
+}
+.lil{
+    width: 185px;
+    height: 105px; 
+    border-radius: 22px;
+}
+.konteiner{
+    display: flex;
+    flex-direction: row;
+
+}
+.konteiner .lol{
+    justify-content: center;
+}
+.text1ct{
+    text-align: center;
+    font-size: 150%;
+    margin-top:-20px;
+}
+nav a{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid ;
+    border-radius: 21px;
+    padding: 10px 15px 10px 15px  ;
+    text-decoration: none;
+    width: 260px;
+    font-size: 41px;
+    margin: 10px; 
+    text-align: center;
+    color: rgb(0, 145, 234);
+    opacity: 0.8;
+    
+}
+nav{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.dov img{
+float:left;
+}
+.dov p{
+float:right;
+text-align: right;
+font-size: 30px;
+width: 900px;
+
+}
+a:hover{
+    opacity: 1;
+
+}
+img:hover{
+    transform: scale(1.1);
+     transition: 2s;
+}
